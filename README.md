@@ -6,8 +6,7 @@
 ```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt && python manage.py migrate && python manage.py collectstatic --noinput
-
+pip install -r requirements.txt
 # ตั้งค่าโครงสร้างฐานข้อมูล
 python manage.py migrate
 
